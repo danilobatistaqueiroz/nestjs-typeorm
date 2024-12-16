@@ -14,6 +14,8 @@ import { ListaUsuarioDTO } from './dto/ListaUsuario.dto';
 import { UsuarioEntity } from './usuario.entity';
 import { UsuarioRepository } from './usuario.repository';
 
+//TODO: adicionar painel ADM
+
 @Controller('/usuarios')
 export class UsuarioController {
   constructor(private usuarioRepository: UsuarioRepository) {}
